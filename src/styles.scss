@@ -1,1 +1,234 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.all-wrap {
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 0px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.content {
+  flex: 1;
+}
+table {
+  border-collapse: collapse;
+}
+
+.open-sans {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+
+.element-row {
+  position: relative;
+}
+
+.element-row:not(.expanded) {
+  cursor: pointer;
+}
+
+.tagged-table tr td:first-child {
+  border-top-left-radius: 6px;
+}
+
+.tagged-table tr td:last-child {
+  border-top-right-radius: 6px;
+}
+
+.tagged-table tr td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.tagged-table tr td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.tagged-table tr th:first-child {
+  border-top-left-radius: 6px;
+}
+
+.tagged-table tr th:last-child {
+  border-top-right-radius: 6px;
+}
+
+.tagged-table tr th:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.tagged-table tr th:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.tagged-table mat-row mat-cell:first-child {
+  border-top-left-radius: 6px;
+}
+
+.tagged-table mat-row mat-cell:last-child {
+  border-top-right-radius: 6px;
+}
+
+.tagged-table mat-row mat-cell:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.tagged-table mat-row mat-cell:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.tagged-table mat-row mat-header-cell:first-child {
+  border-top-left-radius: 6px;
+}
+
+.tagged-table mat-row mat-header-cell:last-child {
+  border-top-right-radius: 6px;
+}
+
+.tagged-table mat-row mat-header-cell:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.tagged-table mat-row mat-header-cell:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.mat-column-color-header {
+  flex: 0 0 25px !important;
+  color: #505464;
+  border: none !important;
+}
+
+.mat-column-12 {
+  flex: 0 0 5% !important;
+  color: #505464;
+  border: none !important;
+}
+
+.mat-column-new-12 {
+  flex: 0 0 5% !important;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mat-column-new-20 {
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.mat-column-new-12 {
+  flex: 0 0 5% !important;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mat-column-new-20 {
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mat-column-new-10 {
+  flex: 0 0 17% !important;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.mat-column-new-10 {
+  flex: 0 0 17% !important;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.mat-column-5 {
+  flex: 0 0 5% !important;
+  // min-width: 104px !important;
+  // background-color: #FFF;
+  color: #505464;
+  // font: Helvetica;
+  // font-weight: bold;
+  // font-size: 18px;
+  border: none !important;
+}
+.mat-column-new-5 {
+  flex: 0 0 5% !important;
+  //   background-color: #3A3E52;
+  //   color: #FFFFFF;
+  // background-color: #FFF;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  //   font: Helvetica;
+  // font-weight: bold;
+  // font-size: 18px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mat-column-11 {
+  flex: 0 0 10% !important;
+  // min-width: 104px !important;
+  // background-color: #FFF;
+  color: #505464;
+  // font: Helvetica;
+  // font-weight: bold;
+  // font-size: 18px;
+  border: none !important;
+}
+.mat-column-new-11 {
+  flex: 0 0 10% !important;
+  //   background-color: #3A3E52;
+  //   color: #FFFFFF;
+  // background-color: #FFF;
+  color: #505464;
+  padding: 6px 6px 6px 6px;
+  //   font: Helvetica;
+  // font-weight: bold;
+  // font-size: 18px;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mat-header-row {
+  height: 46px !important;
+  background: rgba(0,0,0,.2);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}

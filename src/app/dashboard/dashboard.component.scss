@@ -1,0 +1,51 @@
+.matFormFieldOutline {
+  color: #303030;
+}
+.pointer-event{
+  cursor: pointer;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.example-element-description {
+  padding: 16px;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+tr.example-detail-row {
+  height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: rgba(0,0,0,.2);
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: rgba(0,0,0,.2);
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
+
+#table-row-radius {
+  border-radius: 6px;
+  box-shadow: 0 0 1px -10px rgba(0,0,0,.1), 0 0 0 -5px rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.25);
+  margin-bottom: 3px;
+  border-bottom-width: 0px;
+}
+
+#table-row-radius:hover {
+  background: rgba(0,0,0,.2);
+}
+
+#table-row-radius:active {
+  background: rgba(0,0,0,.2);
+}

@@ -1,0 +1,43 @@
+.chevron-nav-btn {
+  height: 100%;
+  background: transparent;
+  min-width: 30px !important;
+  padding: 0;
+}
+
+.side-nav-chevron {
+  height: 20px;
+}
+
+.face-left {
+  transform: rotate(-180deg);
+  transition: 300ms;
+}
+
+.rotate-chevron {
+  transform: rotate(0deg);
+  transition: 300ms;
+}
+
+.fa-chevron-left {
+  transition: 300ms;
+}
+
+.fa-chevron-right {
+  transition: 300ms;
+}
+
+#gradient {
+  background-image: linear-gradient(
+    to right,
+    #F1C593,
+     #AD2D31,
+     #198465,
+     #083261,
+     #DBDBDC);
+  height: 27px;
+}
+
+#toolbar {
+  border-bottom: 1px solid #fff;
+}
